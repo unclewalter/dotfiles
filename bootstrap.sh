@@ -16,10 +16,9 @@ else
     brew update
 fi
 
-if [[ $(command -v zsh) == "" ]]; then
-    echo "Installing zsh"
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-fi
+echo "Installing zsh"
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 
