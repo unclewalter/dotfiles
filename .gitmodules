@@ -4,6 +4,6 @@
 [submodule ".emacs.d/undo-tree"]
 	path = .emacs.d/undo-tree
 	url = https://github.com/martinp26/undo-tree
-[submodule ".emacs.d/plugins/evil-org"]
-	path = .emacs.d/plugins/evil-org
-	url = git://github.com/somelauw/evil-org.git
+[submodule ".emacs.d/plugins/evil-org-mode"]
+	path = .emacs.d/plugins/evil-org-mode
+	url = git://github.com/somelauw/evil-org-mode.git
