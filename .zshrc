@@ -4,3 +4,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 source .functions
 source .aliases
+
+ZSH_THEME="agnoster"
