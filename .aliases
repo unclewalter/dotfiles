@@ -1,0 +1,2 @@
+alias la='la -al'
+export PATH="/usr/local/opt/libarchive/bin:$PATH"
