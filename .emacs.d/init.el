@@ -15,3 +15,5 @@
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (load-theme 'dracula t)
+
+(menu-bar-mode -1) 
