@@ -17,3 +17,9 @@
 (load-theme 'dracula t)
 
 (menu-bar-mode -1) 
+
+(add-to-list 'load-path "~/.emacs.d/vendor/scel/el")
+(require 'sclang)
+
+(setenv "PATH" (concat (getenv "PATH") ":/Applications/SuperCollider:/Applications/SuperCollider/SuperCollider.app/Contents/MacOS"))
+(setq exec-path (append exec-path '("/Applications/SuperCollider"  "/Applications/SuperCollider/SuperCollider.app/Contents/MacOS" )))
