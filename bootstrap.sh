@@ -16,10 +16,19 @@ else
     brew update
 fi
 
+echo "Installing brew packages"
+
+brew install emacs
+brew install --with-toolchain elvm
+brew install rustup
+
 echo "Installing zsh"
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 chsh -s /usr/local/bin/zsh
+
+echo "Setting up Rust environment"
+rustup-init -y
 
 echo "Installing Powerline fonts"
 
