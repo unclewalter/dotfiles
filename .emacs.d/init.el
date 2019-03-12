@@ -34,3 +34,14 @@
 
 ;; Use `display-line-number-mode` as linum-mode's backend for smooth performance
 (setq linum-relative-backend 'display-line-numbers-mode)
+
+(add-to-list 'load-path
+              "~/.emacs.d/plugins/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
+
+(setq yas-snippet-dirs
+    '("~/.emacs.d/snippets"                 ;; personal snippets
+))
+
+(yas-global-mode 1)
