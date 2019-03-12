@@ -1,6 +1,3 @@
-					;Moving auto saves to emacs directory
-(setq auto-save-file-name-transforms
-          `((".*" ,(concat user-emacs-directory "auto-save/") t)))
 					;Enable Evil mode
 
 (add-to-list 'load-path "~/.emacs.d/evil")
@@ -23,3 +20,7 @@
 
 (setenv "PATH" (concat (getenv "PATH") ":/Applications/SuperCollider:/Applications/SuperCollider/SuperCollider.app/Contents/MacOS"))
 (setq exec-path (append exec-path '("/Applications/SuperCollider"  "/Applications/SuperCollider/SuperCollider.app/Contents/MacOS" )))
+
+(add-to-list 'load-path "~/.emacs.d/rust-mode/")
+(autoload 'rust-mode "rust-mode" nil t)
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
