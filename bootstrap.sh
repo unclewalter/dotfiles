@@ -25,12 +25,15 @@ brew install ffmpeg
 brew install sox
 brew install wget
 brew install eame
+brew cask install iterm2
 brew cask install chronosync
 brew cask install spotify
 brew cask install google-chrome
 brew cask install the-unarchiver
 brew cask install qlab
 brew cask install iina
+brew cask install blender
+brew cask install ableton-live-standard
 
 echo "Installing zsh"
 brew install zsh
