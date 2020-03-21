@@ -34,6 +34,7 @@ brew cask install qlab
 brew cask install iina
 brew cask install blender
 brew cask install ableton-live-standard
+brew cask install visual-studio-code
 
 echo "Installing zsh"
 brew install zsh
