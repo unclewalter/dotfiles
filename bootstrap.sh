@@ -21,6 +21,16 @@ echo "Installing brew packages"
 brew install emacs
 brew install --with-toolchain elvm
 brew install rustup
+brew install ffmpeg
+brew install sox
+brew install wget
+brew install eame
+brew cask install chronosync
+brew cask install spotify
+brew cask install google-chrome
+brew cask install the-unarchiver
+brew cask install qlab
+brew cask install iina
 
 echo "Installing zsh"
 brew install zsh
