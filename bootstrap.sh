@@ -25,6 +25,7 @@ brew install ffmpeg
 brew install sox
 brew install wget
 brew install eame
+brew install pyenv
 brew cask install iterm2
 brew cask install chronosync
 brew cask install spotify
