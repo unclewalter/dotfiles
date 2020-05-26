@@ -26,6 +26,8 @@ brew install sox
 brew install wget
 brew install eame
 brew install pyenv
+brew install fzf
+ /usr/local/opt/fzf/install
 brew cask install iterm2
 brew cask install chronosync
 brew cask install spotify
