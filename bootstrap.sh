@@ -27,16 +27,16 @@ brew install wget
 brew install eame
 brew install pyenv
 brew install fzf
- /usr/local/opt/fzf/install
-brew cask install iterm2
-brew cask install chronosync
-brew cask install spotify
-brew cask install google-chrome
-brew cask install the-unarchiver
-brew cask install qlab
-brew cask install iina
-brew cask install blender
-brew cask install visual-studio-code
+/usr/local/opt/fzf/install
+brew install --cask tidal
+brew install --cask iterm2
+brew install --cask chronosync
+brew install --cask google-chrome
+brew install --cask the-unarchiver
+brew install --cask qlab
+brew install --cask iina
+brew install --cask blender
+brew install --cask visual-studio-code
 
 echo "Installing zsh"
 brew install zsh
