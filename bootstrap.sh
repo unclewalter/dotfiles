@@ -26,6 +26,7 @@ brew install sox
 brew install wget
 brew install eame
 brew install pyenv
+brew install cmake
 brew install fzf
 /usr/local/opt/fzf/install
 brew install --cask tidal
@@ -37,6 +38,7 @@ brew install --cask qlab
 brew install --cask iina
 brew install --cask blender
 brew install --cask visual-studio-code
+brew install --cask discord
 
 echo "Installing zsh"
 brew install zsh
