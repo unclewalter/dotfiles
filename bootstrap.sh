@@ -39,6 +39,7 @@ brew install --cask iina
 brew install --cask blender
 brew install --cask visual-studio-code
 brew install --cask discord
+brew install --cask kicad
 
 echo "Installing zsh"
 brew install zsh
