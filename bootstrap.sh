@@ -27,6 +27,7 @@ brew install wget
 brew install eame
 brew install pyenv
 brew install cmake
+brew install osx-cpu-temp
 brew install fzf
 /usr/local/opt/fzf/install
 brew install --cask tidal
