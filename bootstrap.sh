@@ -40,6 +40,7 @@ brew install --cask blender
 brew install --cask visual-studio-code
 brew install --cask discord
 brew install --cask kicad
+brew install --cask notion
 
 echo "Installing zsh"
 brew install zsh
